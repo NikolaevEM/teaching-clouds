@@ -5,7 +5,7 @@
 3. AWS S3
 4. AWS VPC
 5. [AWS Cloudfront & Route53](aws_cloudfront.md)
-6. AWS EC2 Autoscaling
+6. [AWS EC2 Auto Scaling](aws_autoscale.md)
 7. AWS RDS
 8. AWS DynamoDB
 9. AWS Lambda
