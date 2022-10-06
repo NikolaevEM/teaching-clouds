@@ -44,13 +44,17 @@
         - `templates/index.html`
 
     * установить библиотеки
-        - создать виртуальное окружение `python -m venv venv`
+        - создать виртуальное окружение `python3 -m venv venv`
         - активировать виртуальное окружение `source venv/bin/activate`
         - установить библиотеки `pip install flask gunicorn`
 
     * настроить службу
 
-        - создать и отредактировать `/etc/systemd/system/app.service`
+        - создать и отредактировать `sudo nano /etc/systemd/system/app.service`
+        - перечитать описание служб `sudo systemctl daemon-reload`
+        - включаем автозапуск службы  `sudo systemctl enable app.service`
+        - запускаем службу `sudo systemctl start app.service`
+        - проверяем статус службы `sudo systemctl status app.service`
 
 4. Создать образ инстанса (AMI) — готов
 
@@ -131,8 +135,8 @@ After = network.target
  
 [Service]
 PIDFile = /run/app.pid
-User = ec2-user
-Group = ec2-user
+# User = ec2-user
+# Group = ec2-user
 WorkingDirectory = /home/ec2-user
 ExecStart = /home/ec2-user/venv/bin/gunicorn app:app -b 0.0.0.0:80 --pid /run/app.pid
 ExecReload = /bin/kill -s HUP $MAINPID
