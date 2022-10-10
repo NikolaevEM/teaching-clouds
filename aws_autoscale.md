@@ -75,6 +75,7 @@
   * Выбрать Subnets
   * Создать новый Load Balancer (Application LB, internet-facing)
   * Выбрать имя группы (target)
+  * Health check grace period: 60
   * Maximum capacity: 5
   * Scaling policies: Target tracking, Average CPU
 
