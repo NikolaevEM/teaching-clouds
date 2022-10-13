@@ -2,7 +2,7 @@
 
 1. Введение
 2. AWS EC2
-3. AWS S3
+3. [AWS S3](aws_s3.md)
 4. AWS VPC
 5. [AWS Cloudfront & Route53](aws_cloudfront.md)
 6. [AWS EC2 Auto Scaling](aws_autoscale.md)
