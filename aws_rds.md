@@ -88,3 +88,8 @@ CREATE DATABASE strapi;
   * проверить работу в браузере
 
 4. Подключиться к `strapi` и настроить 2 таблицы с произвольными полями
+
+## Установка Docker в Ubuntu:
+
+https://docs.docker.com/engine/install/ubuntu/
+
