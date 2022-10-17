@@ -76,7 +76,7 @@ services:
 
   * создать БД:
 ```bash
-sudo apt-get install -y postgresql-client-12
+sudo apt-get install -y postgresql-client-14
 psql -h <СУБД> -U strapi postgres
 ```
 ```
