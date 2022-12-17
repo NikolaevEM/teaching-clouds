@@ -2,7 +2,15 @@
 
 ## Вычисления
 
+### Наиболее популярными являются сервисы виртуальных машин:
+
+> Amazon: [Amazon EC2](https://aws.amazon.com/ec2/?did=ap_card&trk=ap_card) - Виртуальные серверы в облаке<br/>
+> Azure: [Виртуальные машины Linux](https://azure.microsoft.com/ru-ru/services/virtual-machines/linux-and-open/) - Подготовка виртуальных машин для Ubuntu, Red Hat и других ОС<br/>
+> Google: [Compute Engine](https://cloud.google.com/compute) - Виртуальные машины, работающие в центре обработки данных Google.<br/>
+> Yandex: [Compute Cloud](https://cloud.yandex.ru/services/compute) - Виртуальные машины и диски
+
 ### AWS
+
 - [Amazon EC2](https://aws.amazon.com/ec2/?did=ap_card&trk=ap_card) - Виртуальные серверы в облаке
 - [Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/?did=ap_card&trk=ap_card) - Масштабирование вычислительных ресурсов в зависимости от нагрузки
 - [Amazon Elastic Container Service (ECS)](https://aws.amazon.com/ecs/?did=ap_card&trk=ap_card) - Безопасное, надежное и масштабируемое средство использования контейнеров
@@ -20,6 +28,7 @@
 - [AWS SimSpace Weaver](https://aws.amazon.com/simspaceweaver/?did=ap_card&trk=ap_card) - Создание динамических крупномасштабных пространственных моделей на инфраструктуре под управлением AWS
 
 ### Azure
+
 - [Служба приложений](https://azure.microsoft.com/ru-ru/products/app-service/) - Ускоренное создание эффективных облачных приложений для веб-клиентов и мобильных клиентов
 - [Azure CycleCloud](https://azure.microsoft.com/ru-ru/features/azure-cyclecloud/) - Кластеры HPC и большие вычислительные кластеры: создание, управление, использование, оптимизация
 - [Azure Quantum](https://azure.microsoft.com/ru-ru/products/quantum/) - Присоединяйтесь и исследуйте разнообразный выбор современного квантового оборудования, программного обеспечения и решений
@@ -42,6 +51,7 @@
 - [Service Fabric](https://azure.microsoft.com/ru-ru/products/service-fabric/) - Разработка микрослужб и настройка контейнеров на Windows и Linux
 
 ### GCP
+
 - [App Engine](https://cloud.google.com/appengine) - платформа бессерверных приложений для приложений и серверных частей.
 - [Bare Metal Solution](https://cloud.google.com/bare-metal) - Инфраструктура для запуска специализированных рабочих нагрузок в Google Cloud.
 - [Batch](https://cloud.google.com/batch) - Полностью управляемый пакетный сервис для планирования, постановки в очередь и выполнения пакетных заданий в масштабе.
@@ -57,6 +67,7 @@
 - [VMware Engine](https://cloud.google.com/vmware-engine) - Перенесите и запустите рабочие нагрузки VMware изначально в Google Cloud.
 
 ### Yandex
+
 - [Compute Cloud](https://cloud.yandex.ru/services/compute) - Виртуальные машины и диски
 - [Object Storage](https://cloud.yandex.ru/services/storage) - Масштабируемое хранилище данных
 - [Virtual Private Cloud](https://cloud.yandex.ru/services/vpc) - Управление сетями в облаке
@@ -73,10 +84,19 @@
 - [Monitoring](https://cloud.yandex.ru/services/monitoring) - Сбор и визуализация метрик
 - [Cloud Logging](https://cloud.yandex.ru/services/logging) - Логирование сервисов Yandex Cloud
 
+<br/>
 
 ## Базы данных
 
+### Наиболее востребованные сервисы, связанные с базами данных:
+
+> Amazon: [Amazon Aurora](https://aws.amazon.com/rds/aurora/?did=ap_card&trk=ap_card) - Управляемая реляционная база данных с высокой производительностью<br/>
+> Azure: [Azure SQL](https://azure.microsoft.com/ru-ru/products/azure-sql/) - Миграция, модернизация и инновации в современном семействе облачных баз данных SQL<br/>
+> Google: [Cloud SQL](https://cloud.google.com/sql) - Полностью управляемая база данных для MySQL, PostgreSQL и SQL Server.<br/>
+> Yandex: [Managed Service for PostgreSQL](https://cloud.yandex.ru/services/managed-postgresql) - Управление базой данных PostgreSQL
+
 ### AWS
+
 - [Amazon Aurora](https://aws.amazon.com/rds/aurora/?did=ap_card&trk=ap_card) - Управляемая реляционная база данных с высокой производительностью
 - [Amazon DocumentDB](https://aws.amazon.com/documentdb/?did=ap_card&trk=ap_card) - Полностью управляемая база данных документов
 - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/?did=ap_card&trk=ap_card) - Управляемая база данных NoSQL
@@ -90,6 +110,7 @@
 - [Amazon Timestream](https://aws.amazon.com/timestream/?did=ap_card&trk=ap_card) - Полностью управляемая база данных временных рядов
 
 ### Azure
+
 - [Кэш Azure для Redis](https://azure.microsoft.com/ru-ru/products/cache/) - Ускорьте работу приложений за счет кэширования с высокой пропускной способностью и малым временем задержки
 - [Azure Cosmos DB](https://azure.microsoft.com/ru-ru/products/cosmos-db/) - Быстродействующая база данных NoSQL с открытыми API-интерфейсами для любого масштаба
 - [Фабрика данных Azure](https://azure.microsoft.com/ru-ru/products/data-factory/) - Простая гибридная интеграция данных в масштабах предприятия
@@ -106,6 +127,7 @@
 - [Управляемый экземпляр Azure для Apache Cassandra](https://azure.microsoft.com/ru-ru/services/managed-instance-apache-cassandra/) - Cassandra в облаке: гибкость, контроль и масштабирование
 
 ### GCP
+
 - [AlloyDB for PostgreSQL](https://cloud.google.com/alloydb) - Полностью управляемая база данных, совместимая с PostgreSQL, для сложных корпоративных рабочих нагрузок.
 - [Bare Metal Solution](https://cloud.google.com/bare-metal/) - Инфраструктура для запуска специализированных рабочих нагрузок в Google Cloud.
 - [Cloud Bigtable](https://cloud.google.com/bigtable) - Облачная база данных с широкими столбцами для крупномасштабных рабочих нагрузок с низкой задержкой.
@@ -118,6 +140,7 @@
 - [Datastream](https://cloud.google.com/datastream) - Бессерверная служба сбора и репликации данных об изменениях.
 
 ### Yandex
+
 - [Managed Service for PostgreSQL](https://cloud.yandex.ru/services/managed-postgresql) - Управление базой данных PostgreSQL
 - [Managed Service for ClickHouse](https://cloud.yandex.ru/services/managed-clickhouse) - Управление базой данных ClickHouse
 - [Managed Service for MySQL®](https://cloud.yandex.ru/services/managed-mysql) - Управление базой данных MySQL®
@@ -138,10 +161,19 @@
 - [Managed Service for OpenSearch](https://cloud.yandex.ru/services/managed-opensearch) - Управление кластерами OpenSearch
 - [Yandex Query](https://cloud.yandex.ru/services/query) - Бессерверная аналитика данных из Object Storage и потоковых данных
 
+<br>
 
 ## Контейнеры
 
+### Наиболее востребованные сервисы, связанные с контейнеризацией:
+
+> Amazon: [Amazon Kubernetes (EKS)](https://aws.amazon.com/eks/?did=ap_card&trk=ap_card) - Самый надежный способ выполнять Kubernetes<br/>
+> Azure: [Служба Azure Kubernetes (AKS)](https://azure.microsoft.com/ru-ru/products/kubernetes-service/) - Создание и масштабирование приложений с помощью управляемой среды Kubernetes<br/>
+> Google: [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine) - Управляемая среда для запуска контейнерных приложений.<br/>
+> Yandex: [Managed Service for Kubernetes®](https://cloud.yandex.ru/services/managed-kubernetes) - Управление кластерами Kubernetes®
+
 ### AWS
+
 - [Amazon Elastic Container Registry (ECR)](https://aws.amazon.com/ecr/?did=ap_card&trk=ap_card) - Простое хранение и развертывание образов контейнеров, а также управление ими
 - [Amazon Elastic Container Service (ECS)](https://aws.amazon.com/ecs/?did=ap_card&trk=ap_card) - Безопасное, надежное и масштабируемое средство использования контейнеров
 - [Amazon Kubernetes (EKS)](https://aws.amazon.com/eks/?did=ap_card&trk=ap_card) - Самый надежный способ выполнять Kubernetes
@@ -151,6 +183,7 @@
 - [Red Hat OpenShift Service на AWS](https://aws.amazon.com/rosa/?did=ap_card&trk=ap_card) - Управляемая OpenShift в облаке
 
 ### Azure
+
 - [Конфигурация приложений](https://azure.microsoft.com/ru-ru/products/app-configuration/) - Быстродействующее масштабируемое хранилище параметров конфигурации приложений
 - [Служба Azure Kubernetes (AKS)](https://azure.microsoft.com/ru-ru/products/kubernetes-service/) - Создание и масштабирование приложений с помощью управляемой среды Kubernetes
 - [Диспетчер парка Azure Kubernetes ПРЕДВАРИТЕЛЬНЫЙ ПРОСМОТР](https://azure.microsoft.com/ru-ru/products/kubernetes-fleet-manager/) - Эффективное управление кластерами Kubernetes в большом масштабе
@@ -163,6 +196,7 @@
 - [Реестр контейнеров Azure](https://azure.microsoft.com/ru-ru/products/container-registry/) - Хранение образов контейнеров и управление ими во всех типах развертываний
 
 ### GCP
+
 - [Artifact Registry](https://cloud.google.com/artifact-registry) - Храните, управляйте и защищайте изображения контейнеров и языковые пакеты.
 - [Cloud Build](https://cloud.google.com/cloud-build) - Решение для выполнения этапов сборки в контейнере Docker.
 - [Cloud Run](https://cloud.google.com/run) - Полностью управляемая среда для запуска контейнерных приложений.
@@ -174,14 +208,24 @@
 - [Kubernetes applications on Google Cloud Marketplace](https://console.cloud.google.com/marketplace/browse?filter=solution-type:k8s&_ga=2.88141723.148913074.1650571113-1096812472.1650562888) - контейнерные приложения с предустановленным развертыванием и унифицированным выставлением счетов.
 
 ### Yandex
+
 - [Managed Service for Kubernetes®](https://cloud.yandex.ru/services/managed-kubernetes) - Управление кластерами Kubernetes®
 - [Container Registry](https://cloud.yandex.ru/services/container-registry) - Управление Docker-образами
 - [Serverless Containers](https://cloud.yandex.ru/services/serverless-containers) - Запуск контейнеров без Kubernetes®
 
+<br>
 
 ## Машинное обучение
 
+### Самые популярные сервисы, связанные с машинным обучением и искусственным интеллектом
+
+> Amazon: [Amazon Rekognition](https://aws.amazon.com/rekognition/?did=ap_card&trk=ap_card) - Анализ изображений и видео<br/>
+> Azure: [Машинное обучение Azure](https://azure.microsoft.com/ru-ru/products/machine-learning/) - Использование службы корпоративного уровня для жизненного цикла комплексного машинного обучения<br/>
+> Google: [AutoML](https://cloud.google.com/automl) - Обучение и разработка пользовательской модели машинного обучения.<br/>
+> Yandex: [DataSphere](https://cloud.yandex.ru/services/datasphere) - Среда ML-разработки полного цикла
+
 ### AWS
+
 - [Amazon Augmented AI](https://aws.amazon.com/augmented-ai/?did=ap_card&trk=ap_card) - Простое внедрение человеческого анализа прогнозов, полученных с помощью машинного обучения
 - [Amazon CodeGuru](https://aws.amazon.com/codeguru/?did=ap_card&trk=ap_card) - Выявление самых дорогостоящих строк кода
 - [Amazon Comprehend](https://aws.amazon.com/comprehend/?did=ap_card&trk=ap_card) - Выявление закономерностей и взаимосвязей в тексте
@@ -197,8 +241,24 @@
 - [Amazon Lookout for Vision](https://aws.amazon.com/lookout-for-vision/?did=ap_card&trk=ap_card) - Обнаружение дефектов продукции с помощью компьютерного зрения для автоматизации проверки качества
 - [Amazon Monitron](https://aws.amazon.com/monitron/?did=ap_card&trk=ap_card) - Снижение незапланированных простоев оборудования благодаря техническому обслуживанию по текущему состоянию и машинному обучению
 - [Amazon Omics](https://aws.amazon.com/omics/?did=ap_card&trk=ap_card) - Анализ данных омики
+- [Amazon Personalize](https://aws.amazon.com/personalize/?did=ap_card&trk=ap_card) - Встраиваемый сервис рекомендаций в режиме реального времени для приложений
+- [Amazon Polly](https://aws.amazon.com/polly/?did=ap_card&trk=ap_card) - Преобразование текста в естественную речь
+- [Amazon Rekognition](https://aws.amazon.com/rekognition/?did=ap_card&trk=ap_card) - Анализ изображений и видео
+- [Amazon SageMaker](https://aws.amazon.com/sagemaker/?did=ap_card&trk=ap_card) - Создание, обучение и развертывание моделей машинного обучения в любом масштабе
+- [Amazon SageMaker Ground Truth](https://aws.amazon.com/sagemaker/groundtruth/?did=ap_card&trk=ap_card) - Создание точных наборов данных для обучения моделей ML
+- [Amazon Textract](https://aws.amazon.com/textract/?did=ap_card&trk=ap_card) - Извлечение текста и данных из документов
+- [Amazon Transcribe](https://aws.amazon.com/transcribe/?did=ap_card&trk=ap_card) - Автоматическое распознавание речи
+- [Amazon Translate](https://aws.amazon.com/translate/?did=ap_card&trk=ap_card) - Естественный и быстрый перевод на другие языки
+- [Apache MXNet на AWS](https://aws.amazon.com/mxnet/?did=ap_card&trk=ap_card) - Масштабируемая платформа глубокого обучения с открытым исходным кодом
+- [AWS Deep Learning Containers](https://aws.amazon.com/machine-learning/containers/?did=ap_card&trk=ap_card) - Образы Docker для глубокого обучения
+- [AWS DeepComposer](https://aws.amazon.com/deepcomposer/?did=ap_card&trk=ap_card) - Музыкальная клавиатура с поддержкой машинного обучения
+- [AWS DeepLens](https://aws.amazon.com/deeplens/?did=ap_card&trk=ap_card) - Видеокамера с поддержкой глубокого обучения
+- [AWS DeepRacer](https://aws.amazon.com/deepracer/?did=ap_card&trk=ap_card) - Автономный гоночный автомобиль в масштабе 1:18, управляемый с помощью машинного обучения
+- [AWS Inferentia](https://aws.amazon.com/machine-learning/inferentia/?did=ap_card&trk=ap_card) - Процессор логических выводов для машинного обучения
+- [AWS Panorama](https://aws.amazon.com/panorama/?did=ap_card&trk=ap_card) - Улучшите работу с машинным зрением на периферийных устройствах
 
 ### Azure
+
 - [Детектор аномалий](https://azure.microsoft.com/ru-ru/products/cognitive-services/anomaly-detector/) - Без труда внедряйте возможности обнаружения аномалий в свои приложения.
 - [Служба Azure Bot](https://azure.microsoft.com/ru-ru/products/bot-services/) - Создайте среду взаимодействия с вашими пользователями на основе ИИ
 - [Когнитивный поиск Azure](https://azure.microsoft.com/ru-ru/products/search/) - Поиск в масштабе предприятия для разработки приложений
@@ -233,6 +293,7 @@
 - [Служба Azure OpenAI ПРЕДВАРИТЕЛЬНАЯ ВЕРСИЯ](https://azure.microsoft.com/ru-ru/products/cognitive-services/openai-service/) - Применяйте расширенный код и языковые модели к различным вариантам использования
 
 ### GCP
+
 - [Vertex AI](https://cloud.google.com/vertex-ai) - Единая платформа для обучения, размещения и управления моделями ML.
 - [Vertex AI Workbench](https://cloud.google.com/vertex-ai-workbench) - Единый интерфейс для вашего рабочего процесса обработки данных, аналитики и машинного обучения.
 - [Vertex Explainable AI](https://cloud.google.com/explainable-ai) - Инструменты и фреймворки для понимания и интерпретации ваших моделей машинного обучения.
@@ -258,6 +319,7 @@
 - [Product Discovery](https://cloud.google.com/solutions/retail-product-discovery) - Качественный поиск в Google и рекомендации по цифровым объектам розничной торговли помогают увеличить конверсию и уменьшить количество отказов от поиска.
 
 ### Yandex
+
 - [DataSphere](https://cloud.yandex.ru/services/datasphere) - Среда ML-разработки полного цикла
 - [SpeechKit](https://cloud.yandex.ru/services/speechkit) - Комплекс технологий распознавания и синтеза речи
 - [Translate](https://cloud.yandex.ru/services/translate) - Машинный перевод с поддержкой более 90 языков
