@@ -53,26 +53,15 @@
 3. Создать
 
   * виртуальную машину в EC2 типа t2.micro, Ubuntu 20.04, задать тег Name
-  * установить туда Docker и Docker-Compose
-  * скачать образ: `docker pull strapi/strapi`
-  * написать docker-compose.yaml
-
-```yaml
-version: '3'
-services:
-  strapi:
-    image: strapi/strapi
-    ports: [80:1337]
-    volumes: [./app:/srv/app]
-    environment:
-      DATABASE_CLIENT: postgres
-      DATABASE_HOST: <DNS-имя вашей СУБД в RDS>
-      DATABASE_PORT: 5432
-      DATABASE_NAME: strapi
-      DATABASE_USERNAME: strapi
-      DATABASE_PASSWORD: 12345678
-      DATABASE_SSL: 'false'
-```
+  * Установить Node.js LTS 18 ([инструкция](https://github.com/nodesource/distributions#using-ubuntu-2))
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
+  * Создать проект, изменить порт (на 8080), подключение к СУБД RDS и запустить
+npx create-strapi-app@latest --no-run books
+cd books
+nano .env
+npm run build
+npm run develop
 
   * создать БД:
 ```bash
@@ -84,12 +73,6 @@ CREATE DATABASE strapi;
 \q
 ```
 
-  * запустить приложение: `docker compose up -d`
   * проверить работу в браузере
 
 4. Подключиться к `strapi` и настроить 2 таблицы с произвольными полями
-
-## Установка Docker в Ubuntu:
-
-https://docs.docker.com/engine/install/ubuntu/
-
