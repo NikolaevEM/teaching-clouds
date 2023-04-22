@@ -52,7 +52,7 @@
 
 3. Создать
 
-  * виртуальную машину в EC2 типа t2.micro, Ubuntu 20.04, задать тег Name
+  * виртуальную машину в EC2 типа t3.medium, Ubuntu 22.04
   * Установить Node.js LTS 18 ([инструкция](https://github.com/nodesource/distributions#using-ubuntu-2))
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt-get install -y nodejs
